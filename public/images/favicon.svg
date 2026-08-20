@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd6df"/>
+      <stop offset="100%" stop-color="#e99aaa"/>
+    </linearGradient>
+
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff0bd"/>
+      <stop offset="100%" stop-color="#d9ad55"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow
+        dx="0"
+        dy="8"
+        stdDeviation="8"
+        flood-opacity="0.25"
+      />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="256" cy="256" r="248" fill="#171719"/>
+
+  <!-- Outer borders -->
+  <circle
+    cx="256"
+    cy="256"
+    r="238"
+    fill="none"
+    stroke="#f3b6c2"
+    stroke-width="5"
+  />
+
+  <circle
+    cx="256"
+    cy="256"
+    r="226"
+    fill="none"
+    stroke="#d9ad55"
+    stroke-width="2"
+  />
+
+  <!-- Stars -->
+  <g fill="#f5d88f">
+    <circle cx="112" cy="118" r="5"/>
+    <circle cx="400" cy="128" r="4"/>
+    <circle cx="91" cy="190" r="3"/>
+    <circle cx="421" cy="210" r="4"/>
+    <circle cx="134" cy="76" r="3"/>
+    <circle cx="378" cy="78" r="3"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#f3b6c2">
+    <path d="M126 145 l6 14 14 6-14 6-6 14-6-14-14-6 14-6z"/>
+    <path d="M388 158 l5 12 12 5-12 5-5 12-5-12-12-5 12-5z"/>
+    <path d="M420 285 l5 12 12 5-12 5-5 12-5-12-12-5 12-5z"/>
+  </g>
+
+  <!-- Crescent Moon -->
+  <path
+    d="M190 78
+       C145 98 132 153 153 192
+       C169 221 201 235 230 224
+       C199 207 181 178 183 145
+       C185 116 198 94 216 80
+       C207 77 198 76 190 78Z"
+    fill="url(#pink)"
+  />
+
+  <!-- Whisk -->
+  <g
+    fill="none"
+    stroke="url(#gold)"
+    stroke-width="8"
+    stroke-linecap="round"
+  >
+    <path d="M337 91 L301 170"/>
+    <path d="M337 91 C355 67 383 70 390 82"/>
+    <path d="M337 91 C360 78 386 89 386 103"/>
+    <path d="M337 91 C359 91 377 108 372 122"/>
+    <path d="M337 91 C350 105 354 128 344 142"/>
+    <path d="M337 91 C329 110 327 130 331 148"/>
+    <path d="M337 91 C317 105 305 124 305 144"/>
+  </g>
+
+  <!-- Cake -->
+  <g filter="url(#shadow)">
+
+    <!-- Cake top -->
+    <ellipse
+      cx="256"
+      cy="190"
+      rx="105"
+      ry="30"
+      fill="#ffd9e1"
+      stroke="#e8a1b0"
+      stroke-width="4"
+    />
+
+    <!-- Cake body -->
+    <path
+      d="M151 190
+         L151 279
+         C151 303 198 319 256 319
+         C314 319 361 303 361 279
+         L361 190
+         Z"
+      fill="#f8cbd5"
+      stroke="#e8a1b0"
+      stroke-width="4"
+    />
+
+    <!-- Cake layers -->
+    <path
+      d="M155 220
+         C205 242 307 242 357 220"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="7"
+      opacity="0.75"
+    />
+
+    <path
+      d="M154 253
+         C204 275 308 275 358 253"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="7"
+      opacity="0.75"
+    />
+
+    <path
+      d="M154 286
+         C204 307 308 307 358 286"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="7"
+      opacity="0.75"
+    />
+
+    <!-- Cake frosting -->
+    <path
+      d="M151 190
+         C170 207 177 212 187 205
+         C198 198 205 216 217 207
+         C230 198 236 216 248 207
+         C261 198 270 216 282 207
+         C295 198 303 216 315 207
+         C327 198 337 208 361 190"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="7"
+      stroke-linecap="round"
+    />
+
+    <!-- Cake cream -->
+    <path
+      d="M214 180
+         C214 153 240 145 256 162
+         C272 145 298 153 298 180
+         C298 191 286 198 256 198
+         C226 198 214 191 214 180Z"
+      fill="url(#pink)"
+    />
+
+    <!-- Cake stand -->
+    <path
+      d="M177 321
+         H335
+         C335 333 325 340 313 342
+         H199
+         C187 340 177 333 177 321Z"
+      fill="url(#gold)"
+    />
+
+    <path
+      d="M218 342
+         C220 373 211 387 194 397
+         H318
+         C301 387 292 373 294 342Z"
+      fill="#d9ad55"
+    />
+
+    <ellipse
+      cx="256"
+      cy="398"
+      rx="79"
+      ry="12"
+      fill="#f0cd78"
+    />
+
+  </g>
+
+  <!-- MW Monogram -->
+  <text
+    x="256"
+    y="455"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="52"
+    font-weight="bold"
+    letter-spacing="8"
+    fill="url(#gold)"
+  >
+    MW
+  </text>
+
+  <!-- Small hearts -->
+  <g fill="#f3b6c2">
+    <path d="M100 425
+             C90 413 70 424 100 448
+             C130 424 110 413 100 425Z"/>
+
+    <path d="M412 425
+             C402 413 382 424 412 448
+             C442 424 422 413 412 425Z"/>
+  </g>
+
+</svg>

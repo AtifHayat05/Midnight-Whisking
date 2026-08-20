@@ -2,22 +2,22 @@ import { useState } from "react";
 
 const cakes = [
   {
-    title: "Elegant Celebration",
+    title: "Cowgirl Charm",
     category: "Custom Cakes",
     image: "/images/cake-1.jpg",
   },
   {
-    title: "Strawberry Dream",
+    title: "Golden Berry Bloom",
     category: "Signature Cakes",
     image: "/images/cake-2.jpg",
   },
   {
-    title: "Luxury Cupcakes",
+    title: "TikTok Star Bites",
     category: "Cupcakes",
     image: "/images/cake-3.jpg",
   },
   {
-    title: "Sweet Celebration",
+    title: " Pastel Blossom Tower",
     category: "Custom Treats",
     image: "/images/cake-4.jpg",
   },
