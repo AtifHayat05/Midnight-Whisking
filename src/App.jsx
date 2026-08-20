@@ -34,16 +34,26 @@ function App() {
           {/* LOGO */}
           <a
             href="#home"
-            className="group shrink-0"
+            className="group flex shrink-0 items-center gap-3"
             onClick={() => setMenuOpen(false)}
           >
-            <h2 className="font-serif text-2xl font-bold tracking-tight transition group-hover:text-[#b76e79]">
-              Midnight Whisking
-            </h2>
+            {/* Logo */}
+            <img
+              src="/midnight-whisking.svg"
+              alt="Midnight Whisking Logo"
+              className="h-12 w-12 object-contain"
+            />
 
-            <p className="mt-0.5 text-[9px] font-semibold uppercase tracking-[0.28em] text-[#b76e79]">
-              Custom Cakes & Treats
-            </p>
+            {/* Brand Name */}
+            <div>
+              <h2 className="font-serif text-2xl font-bold tracking-tight transition group-hover:text-[#b76e79]">
+                Midnight Whisking
+              </h2>
+
+              <p className="mt-0.5 text-[9px] font-semibold uppercase tracking-[0.28em] text-[#b76e79]">
+                Custom Cakes & Treats
+              </p>
+            </div>
           </a>
 
           {/* DESKTOP NAV */}
